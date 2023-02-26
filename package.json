@@ -1,0 +1,20 @@
+{
+  "name": "vesela-shkola",
+  "version": "1.0.0",
+  "description": "vesela shkola",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitruz/vesela-shkola.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitruz/vesela-shkola/issues"
+  },
+  "homepage": "https://github.com/dmitruz/vesela-shkola#readme"
+}
