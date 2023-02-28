@@ -1,6 +1,6 @@
 body {
     font-family: 'Libre Baskerville', serif;
-    
+    margin: 0;
     background-color: aliceblue;
 }
 h1 {
@@ -161,16 +161,42 @@ padding-top: 50px;
 .wrapper {
     display: flex;
     flex-wrap: wrap;
-    
+    padding-top: 40px;
    
 }
 
-.contacts {
-    margin-right: 200px;
+.contact__list {
+    display: block;
+    padding-bottom: 20px;
+    text-align:left;
+    margin-left: 10px;
+}
+.contact__list-item {
+    margin-bottom: 10px;
+}
+.contacts__info {
+    padding-top: 10px;
 }
 
 .form {
-    margin-left: 600px;
+    margin-left: 850px;
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form__btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 @media only screen and (max-width: 1000px) {
     .container {
