@@ -1,32 +1,36 @@
 body {
     font-family: 'Libre Baskerville', serif;
     margin: 0;
-    background-color: aliceblue;
+    background-image: url("./img/backphone.jpg");
 }
 h1 {
     margin: 0;
-    color:#fff;
+    color:black;
 }
 
 h2 {
     font-size: 50px;
-    color:#fff;
+    color:black;
     margin: 0;
 }
 
 h3 {
-    color:#fff;
+    color:black;
 }
 
 p {
     margin: 0;
     font-weight: 500;
-    color:#fff;
+    color:black;
 }
 
 img {
     display: block;
 }
+.header-link {
+    color:black;
+}
+
 
 .container {
     
@@ -36,11 +40,10 @@ img {
     text-align: center;
 }
 /*Header*/
-
-section {
-    background-color: coral;
-
+.hero {
+    padding-top: 50px;
 }
+
 nav {
    display: flex;
     justify-content: space-between;
@@ -53,7 +56,7 @@ ul {
     font-size: 20px;
     margin: 0;
     
-}
+} 
 
 ul.show {
     display: block;
@@ -158,18 +161,29 @@ padding-top: 50px;
 
 /*Our contacts*/
 
-.wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 40px;
-   
+.our__contacts {
+    padding-top: 100px;
 }
 
-.contact__list {
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.address {
     display: block;
-    padding-bottom: 20px;
+}
+.contacts {
+    
+    margin-right: 70px;
+    display: inline-block;
+    font-size: 14px;
+}
+.contact__list {
     text-align:left;
-    margin-left: 10px;
+    list-style: none;
+    display: block;
 }
 .contact__list-item {
     margin-bottom: 10px;
@@ -178,10 +192,25 @@ padding-top: 50px;
     padding-top: 10px;
 }
 
-.form {
-    margin-left: 850px;
+.contacts__soclink-list {
+    
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100px;
+    padding: 0;
 }
 
+.soclist__item {
+    margin-left: 10px;
+}
+
+.subscribe-text {
+    
+    text-align: center;
+}
+.subscribe {
+    margin-left: 330px;
+}
 .forma {
     display: flex;
     flex-direction: column;
@@ -197,6 +226,9 @@ padding-top: 50px;
 .form__btn {
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 2px;
 }
 @media only screen and (max-width: 1000px) {
     .container {
