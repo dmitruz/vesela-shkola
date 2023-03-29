@@ -236,15 +236,14 @@ padding-top: 50px;
 
 /*MOBILE*/   
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
 section {
     width: 480px;
 }
 .container {
-    width: 480px;
-    margin: 0;
-    
+    margin-left: 0;
 }
+
 .logo {
     display: none;
 }
@@ -290,6 +289,7 @@ ul {
         margin-top: 10px;
         margin-left: 50px;
     }
+  
     .button {
         
     width: 150px;
@@ -322,6 +322,11 @@ ul {
    
 .hero-btn {
 margin-top: 250px;
+width: 300px;
+}
+.kind__lessons {
+padding: 0;
+margin-top: 50px;
 }
 .lessons__text {
    font-size: 24px;
@@ -337,7 +342,16 @@ img {
     width: 420px;
     height: 250px;
 }
+.wrapper {
+    display:block;
 }
+.contacts {
+    display: block;
+    margin-left: 40px;
+}
+
+}
+
 @media  screen and (min-width: 1360px) {
    
    .hamburger {
