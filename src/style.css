@@ -236,9 +236,11 @@ padding-top: 50px;
 
 /*MOBILE*/   
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) {
 section {
-    width: 480px;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container {
     margin-left: 0;
@@ -349,9 +351,87 @@ img {
     display: block;
     margin-left: 40px;
 }
-
+.contacts__soclink-list {
+    margin-left: 180px;
+}
+.subscribe {
+    margin-left: 80px;
+}
+.form__btn {
+     cursor: pointer;
+	
+    height: 36px;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: coral;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 6px;
+    margin-right: 100px;
+}
 }
 
+
+/*  ---------------------TABLET ---------------------*/
+
+@media  screen and (min-width: 768px) {
+
+    section {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container {
+        
+        margin-left: 0;
+    }
+    .hamburger {
+        display: none;
+    }
+   nav {
+    margin-left: 65px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+    li {
+        margin: 0;
+    }
+    .hero-btn {
+        width: 300px;
+        height: 40px;
+        font-size: 24px;
+        margin-top: 300px;
+        
+
+    }
+  p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+    h1 {
+        padding-bottom: 40px;
+    }
+    .lessons__text {
+        font-size: 28px;
+    }
+    .lessons__container {
+        width: 768px;
+    }
+   
+    .lesson__card {
+        width: 300px;
+        margin-right: 50px;
+    }
+    img {
+        width: 300px;
+    }
+    .lessons__container {
+        justify-content: center;
+    }
+}
 @media  screen and (min-width: 1360px) {
    
    .hamburger {
