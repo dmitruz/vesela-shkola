@@ -241,9 +241,11 @@ section {
     width: 320px;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 .container {
     margin-left: 0;
+    width: 100%;
 }
 
 .logo {
@@ -264,17 +266,19 @@ section {
     }
     nav {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column-reverse;
 }
  
     li {
         margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 100px;
     }
     h2 {
         font-size: 24px;
     }
 ul {
-    display: flex;
+    display: none;
     list-style-type: none;
     width: 500px;
     justify-content: space-around;
@@ -284,8 +288,7 @@ ul {
 
     ul.show {
     display: block;
-    margin-left: 120px;
-    margin-bottom: 20px;
+    
 }
     .profession {
         margin-top: 10px;
@@ -344,6 +347,10 @@ img {
     width: 420px;
     height: 250px;
 }
+.our__pupils-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .wrapper {
     display:block;
 }
@@ -352,10 +359,25 @@ img {
     margin-left: 40px;
 }
 .contacts__soclink-list {
+    display: flex;
     margin-left: 180px;
+}
+.soclist__item {
+    margin-right: 0;
 }
 .subscribe {
     margin-left: 80px;
+}
+.subscribe-text {
+    margin-right: 100px;
+}
+.join__us {
+    font-size: 24px;
+    padding-top: 20px;
+}
+.form-input {
+    font-size: 16px;
+    padding-left: 8px;
 }
 .form__btn {
      cursor: pointer;
@@ -383,18 +405,23 @@ img {
         margin-right: auto;
     }
     .container {
-        
+        width: 100%;
         margin-left: 0;
     }
     .hamburger {
         display: none;
     }
    nav {
-    margin-left: 100px;
+   margin-left: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
    }
-
+   ul {
+    display: flex;
+   }
+   ul.show {
+    display: flex;
+   }
     li {
         margin: 0;
     }
@@ -403,7 +430,7 @@ img {
         height: 40px;
         font-size: 24px;
         margin-top: 300px;
-        
+        margin-right: 140px;
 
     }
   p {
