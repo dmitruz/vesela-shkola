@@ -430,7 +430,7 @@ img {
         height: 40px;
         font-size: 24px;
         margin-top: 300px;
-        margin-right: 140px;
+       
 
     }
   p {
@@ -453,7 +453,9 @@ img {
         
     }
     img {
+        
         width: 320px;
+        margin-left: 20px;
     }
     .lessons__container {
         justify-content: center;
@@ -494,33 +496,42 @@ margin-top: 30px;
     margin-left: 30px;
    }
 }
-@media  screen and (min-width: 1360px) {
-   
-   .hamburger {
-    display: block;
-    border: 0;
-    background-color: transparent;
-    color: #fff;
-    font-size: 30px;
-    margin: 20px;
-    align-self: flex-end;
+@media  screen and (min-width: 1200px) {
+    .section {
+        width: 1200px;
+        margin-left: 0 auto;
+    }
+   .container {
+    width: 100%;
    }
+   .header {
+    width: 1200px;
+   }
+   .hamburger {
+    display: none;
+   
+   }
+
     nav {
         display: flex;
-        flex-direction: column-reverse;
-        margin: 0;
-        background-color: coral;
+      justify-content: space-between;
+        margin: 0 auto;
     }
      ul {
-        display: none;
-        
+        display: flex;
+       width: 100%;
+       
+        justify-content: space-around;
+        font-size:  30px;
     }
     li {
         margin-top: 10px;
-        padding-right: 150px;
+        padding-right: 20px;
     }
     .logo {
-        display: none;
+        display: block;
+        width: 30px;
+        height: 30px;
     }
     .subscribe {
         margin-left: 0;
