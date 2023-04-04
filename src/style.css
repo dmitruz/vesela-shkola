@@ -54,7 +54,9 @@ a {
    text-decoration: none;
    color: #fff;
 }
-
+a:hover {
+    color:#ef744b;
+}
 /*Hero*/
 
 .hero {
@@ -91,6 +93,14 @@ a {
     background-color: #A9A9A9;
     color: #808080;
 }
+.form__btn:hover {
+    background-color: #ef744b;
+}
+
+.form__btn:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
 
 
 
@@ -106,9 +116,6 @@ a {
     height: 500px;
     box-shadow: 5px 5px 20px;
     margin: 10px;
-}
-.card__content {
-    padding: 10px;
 }
 
 /*Gallery*/
@@ -163,12 +170,7 @@ a {
     flex-direction: column;
 }
 
-.form-input {
-    width: 300px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-}
+
 
 .form__btn {
     margin-top: 20px;
@@ -183,9 +185,8 @@ a {
 @media screen and (min-width: 320px) {
 section {
     width: 320px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    margin: 0 auto;
+   
 }
 .container {
     margin-left: 0;
@@ -201,10 +202,15 @@ section {
         padding-bottom: 40px;
     }
     h1 {
-        font-size: 36px;
+        font-size: 24px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 10px;
     }
     p {
-        font-size: 24px;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     nav {
     display: flex;
@@ -217,8 +223,22 @@ section {
         margin-right: 100px;
     }
     h2 {
+        padding: 0;
         font-size: 24px;
+        margin-left: 10px;
     }
+    h3 {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    .card__content {
+        width: 100%;
+    padding: 10px;
+}
+
 ul {
     display: none;
     list-style-type: none;
@@ -269,7 +289,11 @@ ul {
    
 .hero-btn {
 margin-top: 250px;
-width: 300px;
+width: 200px;
+height:30px;
+}
+.btn-text {
+    font-size: 18px;
 }
 .kind__lessons {
 padding: 0;
@@ -280,13 +304,13 @@ margin-top: 50px;
    margin-bottom: 10px;
 }
 .lessons__container {
-    width: 420px;
+    width: 100%;
 }
 .lesson__card {
-    width: 420px;
+    width: 320px;
 }
 img {
-    width: 420px;
+    width: 300px;
     height: 250px;
 }
 .our__pupils-text {
@@ -298,27 +322,41 @@ img {
 }
 .contacts {
     display: block;
-    margin-left: 40px;
+    margin-left: 10px;
+}
+.contact__list {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
 }
 .contacts__soclink-list {
     display: flex;
-    margin-left: 180px;
+    
 }
 .soclist__item {
     margin-right: 0;
 }
 .subscribe {
-    margin-left: 80px;
+    margin-left: 10px;
 }
 .subscribe-text {
-    margin-right: 100px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .join__us {
     font-size: 24px;
     padding-top: 20px;
+    margin-left: 10px;
 }
+
 .form-input {
-    font-size: 16px;
+    width: 290px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
     padding-left: 8px;
 }
 .form__btn {
@@ -392,6 +430,10 @@ img {
         padding-left: 20px;
         font-size: 28px; 
     }
+    h4 {
+        padding: 0;
+        margin: 0;
+    }
     .lessons__text {
         font-size: 28px;
     }
@@ -435,34 +477,34 @@ img {
     margin-bottom: 20px;
    }
    .address {
-    margin-left: 160px;
+    margin-left: 0;
 
    }
    .last__contact {
-    margin-left: 180px;
+    margin-left: 0;
    }
    .contacts__soclink {
-    margin-left: 180px;
+    margin-left: 0;
    }
    .contact__list {
     display: flex;
     flex-direction: column;
    }
    .join__us {
-    margin-left:20px;
+    margin-left:0;
    }
    .contacts__soclink-list {
 margin-left: 10px;
 margin-top: 30px;
    }
    .subscribe {
-    margin-left: 150px;
+    margin-left: 0;
    }
    .subscribe-text {
     display: none;
    }
    .forma {
-    margin-left: 50px;
+    
     margin-top: 20px;
    }
    .form__btn {
@@ -476,6 +518,12 @@ margin-top: 30px;
         padding-left: 20px;
         padding-right: 20px;
     }
+    .header {
+        padding:0;
+    }
+    h4 {
+        font-size: 18px;
+    }
    nav {
     margin-left: 0;
     margin-top: 0;
@@ -485,6 +533,7 @@ margin-top: 30px;
     display: block;
     width: 40px;
     height: 40px;
+    margin-right: 150px;
    }
    .header-port {
     display:flex;
@@ -555,7 +604,7 @@ margin-bottom: 40px;
 }
 .contacts-section {
     display: flex;
-    align-items:baseline;
+    
 }
 .wrapper {
      display: flex;
@@ -587,6 +636,8 @@ margin-bottom: 40px;
 }
 .contacts__soclink {
     margin-right: 120px;
+    margin-left: 60px;
+    margin-top: 40px;
 }
     .subscribe {
         margin-left: 0;
@@ -595,6 +646,9 @@ margin-bottom: 40px;
         margin-top: 45px;
         font-size: 24px;
         font-weight: bold;
+    }
+    .forma {
+        margin-top: 80px;
     }
     .form__btn {
         margin-left: 0;
