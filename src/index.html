@@ -36,7 +36,7 @@
 
      <section class="hero">
       <div class="container">
-        <button class="hero-btn">
+        <button class="hero-btn" data-moda-open>
           <p class="btn-text">Записати дитину</p></button>
       </div>
     </section>
@@ -196,6 +196,22 @@
         </div>
       </div>
     </section>
+
+    <!-- Modal window -->
+
+    <div class="backdrop" data-modal>
+    <div class="modal">
+      <div class="modal-form">
+      <form class="forma" action="#" method="POST">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+      <input class="form-input" type="text" placeholder="Ім'я" />
+      <input class="form-input" type="text" placeholder="Телефон" />
+      <button type="submit" class="form__btn">Залишити заявку</button>
+      </form>
+      </div>
+</div>
+</div>
     <script src = "./app.js"></script>
+    <script src="./modal.js"></script>
   </body>
 </html>

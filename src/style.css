@@ -34,8 +34,53 @@ img {
     color: coral;
 }
 
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    visibility: visible;
+    opacity: 1;
+    pointer-evEnts: auto;
+    transition: visibility 250ms;
+    opacity: 250ms;
+ }
+ .is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+ }
 
+ .modal {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 450px;
+	
+	background-color: var(--address-text-color);
+	transform: translate(-50%, -50%) scale(1);
+	padding: 40px;
+}
+.close-btn {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	background-color: transparent;
+	justify-content: center;
+	align-items: center;
+}
 
+.modal-form {
+    background-color:#A9A9A9;
+    border: 1px solid black;
+}
 
 
 
