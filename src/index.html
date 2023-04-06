@@ -36,7 +36,7 @@
 
      <section class="hero">
       <div class="container">
-        <button class="hero-btn" data-moda-open>
+        <button data-modal-open type="button" class="hero-btn" >
           <p class="btn-text">Записати дитину</p></button>
       </div>
     </section>
@@ -199,10 +199,10 @@
 
     <!-- Modal window -->
 
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <div class="modal-form">
-      <form class="forma" action="#" method="POST">
+      <form class="forma-modal" action="#" method="POST">
         <button type="button" class="close-btn" data-modal-close>X</button>
       <input class="form-input" type="text" placeholder="Ім'я" />
       <input class="form-input" type="text" placeholder="Телефон" />
@@ -211,7 +211,12 @@
       </div>
 </div>
 </div>
-    <script src = "./app.js"></script>
+    <script src ="./app.js"></script>
     <script src="./modal.js"></script>
+    <script src="./mobile-menu.js"></script>
+     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous">
+    </script>
   </body>
 </html>
