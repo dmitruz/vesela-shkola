@@ -83,6 +83,9 @@ img {
     color:#ef744b;
 }
 .modal-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color:#fff;
     border: 1px solid black;
 }
@@ -91,7 +94,7 @@ img {
 .forma-modal {
     display: flex;
     flex-direction: column;
-    margin-left: 70px;
+    
     margin-top: 40px;
 }
 
@@ -408,7 +411,10 @@ img {
 }
 
 .form-input {
-    width: 290px;
+    
+    width: 230px;
+    border: 1px solid grey;
+    margin-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 10px;
@@ -426,13 +432,15 @@ img {
     font-size: 18px;
     font-weight: 300;
     padding-top: 6px;
-    margin-right: 100px;
+    
 }
 .modal {
     width: 260px;
 }
 .forma-modal {
-    margin-left: 0;
+   
+    align-items: center;
+    justify-content: center;
 }
 }
 
@@ -715,8 +723,15 @@ margin-bottom: 40px;
     .forma {
         margin-top: 80px;
     }
+    .forma-modal {
+        margin-left:0;
+    }
     .form__btn {
-        margin-left: 0;
+        margin-left: 10px;
+    }
+    .form-input {
+        width: 360px;
+        border: 1px solid gray;
     }
    .modal {
     width: 530px;
