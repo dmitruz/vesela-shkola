@@ -1,7 +1,7 @@
 body {
     font-family: 'Libre Baskerville', serif;
     margin: 0;
-    background-image: url("./img/backphone.jpg");
+    background-image: url("./img/phon.jpg");
 }
 h1 {
     margin: 0;
@@ -29,6 +29,8 @@ img {
 }
 .header-link {
     color:black;
+    font-weight: bold;
+    font-size: 18px;
 }
 .header-ling:hover {
     color: coral;
@@ -125,7 +127,7 @@ a:hover {
    background-size: cover;
    background-position: center;
    background-image: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)),
-   url("./img/kids.jpg");
+   url("./img/main.JPG");
 
 }
 
@@ -295,7 +297,7 @@ section {
     }
     .card__content {
         width: 100%;
-    padding: 10px;
+    
 }
 
 ul {
@@ -367,10 +369,11 @@ margin-top: 50px;
 }
 .lesson__card {
     width: 320px;
+    height: 400px;
 }
 img {
     width: 300px;
-    height: 250px;
+    height: 300px;
 }
 .our__pupils-text {
     margin-top: 20px;
@@ -409,7 +412,9 @@ img {
     padding-top: 20px;
     margin-left: 10px;
 }
-
+.subscribe-text {
+    text-align: left;
+}
 .form-input {
     
     width: 230px;
@@ -432,6 +437,7 @@ img {
     font-size: 18px;
     font-weight: 300;
     padding-top: 6px;
+    margin-left: 10px;
     
 }
 .modal {
@@ -513,7 +519,7 @@ img {
    
     .lesson__card {
         width: 320px;
-        
+        height: 400px;
     }
     img {
         
@@ -579,7 +585,7 @@ margin-top: 30px;
    }
    .form__btn {
     margin-right: 0;
-    
+    margin-left: 10px;
    }
    .modal {
     width: 450px;
@@ -668,6 +674,7 @@ margin-bottom: 40px;
 }
 .lesson__card {
     width: 300px;
+    height: 400px;
 }
 .gallery {
     display: flex;
